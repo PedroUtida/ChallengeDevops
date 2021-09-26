@@ -1,8 +1,7 @@
 package br.com.fiap.challenge.controller;
 
-import br.com.fiap.challenge.model.Atleta;
-import br.com.fiap.challenge.repository.AtletaRepository;
-import br.com.fiap.challenge.repository.ModalidadeRepository;
+import br.com.fiap.challenge.model.Usuario;
+import br.com.fiap.challenge.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
