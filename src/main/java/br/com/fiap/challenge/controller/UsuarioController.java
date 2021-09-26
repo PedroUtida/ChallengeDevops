@@ -32,7 +32,7 @@ public class UsuarioController {
 
     @PostMapping("cadastrar")
     public String cadastrar(Usuario usuario, RedirectAttributes redirect){
-        usarioRepository.save(usuario);
+        usuarioRepository.save(usuario);
         redirect.addFlashAttribute("msg", "Cadastrado");
 	return "usuario/lista";
     }
